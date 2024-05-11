@@ -33,7 +33,11 @@
      {
          "username": "new_user",
          "email": "user@example.com",
-         "password": "password123"
+         "password": "password123",
+         "password2": "password123",
+         "city": "Astana",
+         "country": "Kazakhstan",
+         "sex": "male"
      }
      ```
 
@@ -71,7 +75,7 @@
    - Описание: Этот эндпоинт предоставляет время молитвы для указанной даты, города и страны.
    - Пример использования: 
      ```http
-     GET /api/v1/prayer-timings/2024-05-08/Astana/Kazakhstan/
+     GET /api/v1/prayer-timings/20-05-2008/Astana/Kazakhstan/
      ```
 
 7. **Communities (Сообщества)**:
@@ -95,7 +99,9 @@
 9. **Create Community (Создание сообщества)**:
    - URL: `/api/v1/communities/create/`
    - Метод: POST
-   - Описание: Этот эндпоинт позволяет создать новое сообщество в системе.
+   - Описание: Этот эндпоинт позволяет создать новое
+
+ сообщество в системе.
    - Пример использования: 
      ```http
      POST /api/v1/communities/create/
