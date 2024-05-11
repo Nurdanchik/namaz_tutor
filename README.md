@@ -1,3 +1,5 @@
+Адрес backend'a: https://howtonamaz.pythonanywhere.com/
+
 1. **Login (Вход)**:
    - URL: `/api/v1/login/`
    - Метод: POST
